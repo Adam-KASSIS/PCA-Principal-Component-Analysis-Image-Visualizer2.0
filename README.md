@@ -7,7 +7,7 @@
 
 **An interactive web application for visualizing Principal Component Analysis on image datasets**
 
-[![Demo](https://img.shields.io/badge/Demo-Live-success?style=for-the-badge)](https://pca-image-visualizer.vercel.app/)
+[![Demo](https://img.shields.io/badge/Demo-Live-success?style=for-the-badge)](https://pca-principal-component-analysis-im.vercel.app/)
 [![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![React](https://img.shields.io/badge/React-18+-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org)
@@ -71,7 +71,7 @@ https://github.com/user-attachments/assets/4ab754c5-117b-4824-a831-57e3f91a90f5
 
 ### 🌐 Live Application
 
-**[Try the Live Demo](https://pca-image-visualizer.vercel.app/)** 
+**[Try the Live Demo](https://pca-principal-component-analysis-im.vercel.app/)** 
 
 ### 📹 Video Walkthrough
 
