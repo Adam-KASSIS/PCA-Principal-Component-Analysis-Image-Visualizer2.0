@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react';
 
-const API_BASE_URL = 'http://localhost:5000';
-
+const API_BASE_URL = 'https://pca-principal-component-analysis-image-3f1v.onrender.com';
 // Warmup function to wake up the backend
 const warmupBackend = async () => {
   try {
