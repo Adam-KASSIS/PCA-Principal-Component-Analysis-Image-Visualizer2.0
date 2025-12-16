@@ -1129,6 +1129,10 @@ body {
 
   .section-card {
     padding: 1.5rem;
+<<<<<<< HEAD
+=======
+    backdrop-filter: none;
+>>>>>>> 6ccb252 (Version 2.1)
   }
 
   .section-header {
