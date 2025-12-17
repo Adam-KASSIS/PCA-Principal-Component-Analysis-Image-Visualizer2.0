@@ -1,4 +1,4 @@
-/* Version 2.1 */
+/* Version 2.2 */
 
 /* ============= IMPORTS & RESET ============= */
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap');
@@ -1131,10 +1131,7 @@ body {
 
   .section-card {
     padding: 1.5rem;
-<<<<<<< HEAD
-=======
     backdrop-filter: none;
->>>>>>> 6ccb252 (Version 2.1)
   }
 
   .section-header {
