@@ -170,10 +170,13 @@ Create a `datasets` directory in your backend folder and organize your built-in 
 ```
 backend/
 ├── datasets/
-│   ├── dataset1/  (Cat faces)
-│   ├── dataset2/  (Handwritten digits)
-│   └── dataset3/  (Chest X-rays)
-├── app.py
+│   ├── Cat Faces/                              # ✓ dataset1 (Cat faces)
+│   ├── MNIST/                                  # ✓ dataset2 (Handwritten digits)
+│   ├── Chest X Ray Images (Pneumonia)/         # ✓ dataset3 (Chest X-rays)
+│   ├── Labeled Faces in the Wild (LFW)/        # Extra dataset
+│   └── Diabetic Retinopathy/                   # Extra dataset
+│
+├── app2.py                                     # Flask API (currently app2.py)
 └── requirements.txt
 ```
 
@@ -229,24 +232,50 @@ The React app will open at `http://localhost:3000`
 ## 🏗️ Project Structure
 
 ```
-pca-image-visualizer/
-├── backend/
-│   ├── app.py                 # Flask API server
-│   ├── datasets/              # Built-in image datasets
-│   │   ├── dataset1/
-│   │   ├── dataset2/
-│   │   └── dataset3/
-│   └── requirements.txt       # Python dependencies
-│
-├── frontend/
-│   ├── src/
-│   │   ├── App.js            # Main React component
-│   │   ├── App.css           # Styling
-│   │   └── index.js          # Entry point
-│   ├── public/
-│   └── package.json          # Node dependencies
-│
+PCA-Principal-Component-Analysis-Image-Visualizer2.0-master/
 ├── README.md
+│
+├── backend/
+│   ├── app2.py                          # Flask API server
+│   ├── requirements.txt                 # Python dependencies
+│   ├── runtime.txt                      # Runtime configuration
+│   └── datasets/                        # Built-in image datasets
+│       ├── Cat Faces/
+│       ├── Chest X Ray Images (Pneumonia)/
+│       ├── Diabetic Retinopathy/
+│       ├── Labeled Faces in the Wild (LFW)/
+│       └── MNIST/
+│
+├── my-app/                              # React + Vite frontend (renamed from /frontend)
+│   ├── package.json                     # Node dependencies
+│   ├── README.md
+│   ├── vite.config.js                   # Vite configuration
+│   ├── eslint.config.js                 # ESLint configuration
+│   ├── index.html                       # HTML entry point
+│   │
+│   ├── public/                          # Static assets
+│   │
+│   └── src/
+│       ├── main.jsx                     # React entry point
+│       ├── App.jsx                      # Main React component
+│       ├── App.css                      # App styling
+│       ├── index.css                    # Global styling
+│       ├── assets/                      # Asset files
+│       ├── components/
+│       │   ├── ControlPanel.jsx
+│       │   ├── DataSourceTabs.jsx
+│       │   ├── EigenimagesGrid.jsx
+│       │   ├── Header.jsx
+│       │   ├── ImageComparison.jsx
+│       │   ├── ImagePreviewGrid.jsx
+│       │   ├── PCAVisualization.jsx
+│       │   ├── PCAVisualization1D.jsx
+│       │   ├── PCAVisualization2D.jsx
+│       │   ├── PCAVisualization3D.jsx
+│       │   ├── VarianceInfo.jsx
+│       │   └── WarningBanner.jsx
+│       └── hooks/
+│           └── usePCA.js
 ├── LICENSE
 └── .gitignore
 ```
